@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="card ">
+                    <div class="card-header text-center h5">
+                        convert image to base64
+                    </div>
+                    <div class="card-body text-center">
+                        <textarea name="" id="b64" cols="65" rows="10"></textarea>
+                        <input style="margin-left:-200px" id="inp" type='file'>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                    <div class="card">
+                        <div class="card-header h5 text-center">
+                            <button style="margin-left:15px" id="bs64">convert to image</button>
+                            <div style="width:100%" height="315"  id="img">
+                                <img id="imgage"  style="width:100%" id="base64" src="">
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+    <script src="js/base64.js">
+    </script>
+</body>
+</html>
